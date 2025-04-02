@@ -3,7 +3,7 @@ public class LengthofStrinrg {
       int length = 0;
       String s = "Prepinsta";
 
-      for (@SuppressWarnings("unused") char ch : s.toCharArray()) {
+      for (char ch : s.toCharArray()) {
          length++;
       }
       System.out.print(length);

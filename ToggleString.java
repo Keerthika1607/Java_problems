@@ -18,7 +18,7 @@
 public class ToggleString {
    public static void main(String[] args) {
       String s = "PrePinSTa";
-      char[] toggledArray = s.toCharArray(); // Convert string to char array
+      char[] toggledArray = s.toCharArray();
 
       for (int i = 0; i < toggledArray.length; i++) {
          if (Character.isUpperCase(toggledArray[i])) {
